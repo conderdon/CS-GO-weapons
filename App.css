@@ -1,0 +1,311 @@
+body{
+  background-image: url("https://www.kv.by/sites/default/files/pictures/mainimage/2018/03/csgo-wallpaper-1.jpg");
+  background-size: 100%;
+  min-height: 1400px;
+  background-position: fixed;
+}
+@keyframes spin {
+                 0% { transform: rotate(0deg); }
+                 50% { transform: rotate(360deg); }
+                 100% { transform: rotate(0deg); }
+            }
+#cswr{
+  width:40%;
+}
+.App {
+  margin-top: 30px;
+  text-align: center;
+}
+.MainP{
+   width: 60%;
+  height: 1200px;
+  background-color: #a1a5ab;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5px;
+  opacity: 80%;
+}
+
+.navbar{
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 20%;
+  opacity: 70%;
+  background-color: #a1a5ab;  
+}
+.Terrorists{
+  width: 60%;
+  height: 1600px;
+  background-color: #a1a5ab;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5px;
+  opacity: 80%;
+}
+.Terrorists img{
+  width: 65%;
+}
+
+.Ctr{
+   width: 60%;
+  height: 1450px;
+  background-color: #a1a5ab;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5px;
+  opacity: 80%;
+}
+.Ctr img{
+  width:65%;
+}
+.Cguns{
+  width: 60%;
+  height: 4000px;
+  background-color: #a1a5ab;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5px;
+  opacity: 80%;
+}
+.Cguns img{
+  width: 65%;
+
+}
+.Gunstr{
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Gunstr div{
+  width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+
+}
+#bblock{
+  width: 100%;
+}
+#sg553{
+  margin-top: 20px;
+}
+.Gunsctr{
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Gunsctr div{
+  width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+
+}
+
+
+.d-block-w-100{
+  width: 70%;
+  height: 30%;
+}
+#navbrand1{
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.Pistols{
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Pistols div{
+   width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+}
+.Submachine-guns{
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Submachine-guns div{
+   width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+}
+.Machine-guns{
+   display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Machine-guns div{
+   width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+}
+.Snipers{
+   display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Snipers div{
+   width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+}
+.Shotguns{
+   display: grid;
+  grid-template-columns: 25% 60%;
+  grid-gap:20px;
+}
+.Shotguns div{
+   width: 100%;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 7%;
+}
+.Knives{
+   display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.Knives div{
+   width: 100;
+  height: 150px;
+  border-width: black;
+  border-style: double;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#kn20{
+  width: 25%;
+}
+#kn18{
+   width: 45%;
+}
+@media screen and (max-width: 991px){
+  .navbar{
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 15%; 
+}
+.MainP{
+   width: 70%;
+  margin-left: 15%;
+  opacity: 80%;
+  min-height: 1400px;
+}
+.Terrorists{
+  width: 70%;
+  height: 1600px;
+  margin-left: 15%;
+  opacity: 80%;
+}
+.Ctr{
+    width: 70%;
+  height: 1600px;
+  margin-left: 15%;
+  opacity: 80%;
+}
+.Cguns{
+   width: 70%;
+  height: 1600px;
+  margin-left: 15%;
+  opacity: 80%;
+  min-height: 3900px;
+}
+}
+@media screen and (max-width: 767px){
+   .navbar{
+  width: 80%;
+  margin-left: 10%; 
+}
+.MainP{
+   width: 80%;
+  margin-left: 10%;
+  min-height: 1550px;
+
+}
+.Terrorists{
+  width: 80%;
+  height: 1600px;
+  margin-left: 10%;
+}
+.Ctr{
+    width: 80%;
+  height: 1600px;
+  margin-left: 10%;
+
+}
+.Cguns{
+   width: 80%;
+  height: 1600px;
+  margin-left: 10%;
+  min-height: 3900px;
+}
+.Cguns img{
+  margin-top: 20%;
+}
+.Terrorists img{
+
+margin-top: 20%;
+}
+.Ctr img{
+  margin-top: 20%;
+}
+}
+@media screen and (max-width: 479px){
+.navbar{
+  width: 90%;
+  margin-left: 5%; 
+}
+.MainP{
+   width: 90%;
+  margin-left: 5%;
+  min-height: 2300px;
+
+}
+.Terrorists{
+  width: 90%;
+  height: 1850px;
+  margin-left: 5%;
+}
+.Ctr{
+    width: 90%;
+  height: 1800px;
+  margin-left: 5%;
+
+}
+.Cguns{
+   width: 90%;
+  height: 1600px;
+  margin-left: 5%;
+  min-height: 4700px;
+}
+#lblock{
+  height: 100px;
+}
+#bblock{
+  height: 170px
+}
+.Knives{
+   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin-right: 10px;
+}
+.Knives div{
+   width: 100%;
+}
+}
